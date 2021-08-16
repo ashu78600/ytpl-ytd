@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <script
+      src="https://kit.fontawesome.com/e4a561883f.js"
+      crossorigin="anonymous"
+    ></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="back-cover">
+      <div class="directory">
+        <div class="cancel"></div>
+        <div class="label mx">Save To:</div>
+        <div class="dir-input">
+          <input type="text" class="dir-path" />
+        </div>
+        <div class="mx">
+          <button class="browse-button button">Browse</button>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="nav-bar">
+        <div class="nav-head">
+          <div class="nav-title">
+            <span>Y</span><i style="color: tomato">tpl</i>
+          </div>
+          <div class="left-menu">
+            <div class="nav-music mx">
+              <span>M</span><i style="color: tomato">usic</i>
+            </div>
+            <div class="nav-playlist mx">
+              <span>P</span><i style="color: tomato">laylist</i>
+            </div>
+          </div>
+        </div>
+        <div class="right-menu">
+          <div class="right-menu-icon">
+            <i class="fas fa-minus-square"></i>
+          </div>
+          <div class="right-menu-icon">
+            <i class="far fa-window-maximize"></i>
+          </div>
+          <div class="right-menu-icon">
+            <i class="fas fa-times-circle"></i>
+          </div>
+        </div>
+      </div>
+      <div class="search">
+        <input type="text" class="input-link" />
+        <span class="button go-button" data-type="0">Go</span>
+      </div>
+      <div class="music-box"></div>
+      <div class="box">
+        <div class="result">
+          <div class="result-item">
+            <div class="cancel-video"><i class="fas fa-window-close"></i></div>
+            <div class="download-video" style="padding: 0px">
+              <i class="fas fa-arrow-alt-circle-down"></i>
+            </div>
+            <div class="result-top">
+              <div class="thumbnail mx">
+                <img src="./img/logo.png" height="100%" width="100%" />
+              </div>
+              <div class="video-title mx">
+                Past 7 Days Most Viewed Indian Songs on Youtube [9 August 2021]
+              </div>
+            </div>
+
+            <div class="result-bottom">
+              <div class="progress-track mx">
+                <div class="progress-bar">10%</div>
+              </div>
+              <div class="download-meta">
+                <div class="download-size mx">Size: 0 MB</div>
+                <div class="download-speed mx">Speed:3 kbps</div>
+                <div class="download-ets mx">Time Left: 14s</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="icon-box">
+      <div class="icon"></div>
+    </div>
+
+    <script src="renderer.js"></script>
+  </body>
+</html>
